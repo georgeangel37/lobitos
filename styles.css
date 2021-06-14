@@ -76,15 +76,19 @@ div.hotelbox {
 	font-size: 26px;
 	color: #FFFFFF;
 }
-@media only screen and (max-width:1024px){
-	div.galleryact{
-		width: auto;
-		height: auto;
-	}
+@media only screen and (max-width:1370px){
 	div.hotelbox{
 		height: auto;
 		width: auto;
 	}
+	div.hotelbox img{
+		display: none;
+	}
+	div.galleryact{
+		width: 50%;
+		height: auto;
+	}
+@media only screen and (max-width:768px){
 	img{
 		display: none;
 	}
