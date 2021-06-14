@@ -76,3 +76,18 @@ div.hotelbox {
 	font-size: 26px;
 	color: #FFFFFF;
 }
+@media only screen and (max-width:1024px){
+	div.galleryact{
+		width: auto;
+		height: auto;
+	}
+	div.hotelbox{
+		height: auto;
+		width: auto;
+	}
+	img{
+		display: none;
+	}
+	#mobile {display:inline;}
+	#desktop {display:none;}
+}
