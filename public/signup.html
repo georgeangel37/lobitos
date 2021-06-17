@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <title>Book a hotel</title>
+  <script src="collect.js" defer>
+  </script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<header>
+  <h1>Lobitos</h1>
+</header>
+<nav>
+  <a href="Index.html">Home</a>&nbsp;
+  <a href="hotels.html">Where to stay</a>&nbsp;
+  <a href="activities.html">What to do</a>&nbsp;
+  <a href="https://www.facebook.com/waveslobitos/events/?ref=page_internal">Events</a>&nbsp;
+</nav>
+<main>
+  <h2>Book a hotel</h2>
+<form autocomplete="off" name="signup" id="suform" onsubmit="return validateForm()">
+  <label for="name">First Name:</label> <br /><input id="name" name="name" required="" type="text" />
+  <br />Last Name: <br /><input id="lastname" name="lastname" required="" type="text" />
+  <br /><label for="email">Email:</label> <br /><input id="email" name="email" required="" type="email" />
+  <br /><label for="phonenumber">Phone Number:</label> <br /><input id="phonenumber" name="phonenumber" required="" type="number" />
+  <br /><label for="housenumber">House Number:</label> <br /><input id="housenumber" name="housenumber" required="" type="number" />
+  <br /><label for="postcode">Postcode:</label> <br /><input id="postcode" name="postcode" required="" type="text" />
+  <br /><label for="cardnumber">Card Number:</label> <br /><input id="cardnumber" name="cardnumber" required="" type="number" />
+
+  <br /><label for="age">Age:</label> <br /><input id="age" name="age" required="" type="number" />
+
+
+
+  <br /><label for="date">Check in date:</label> <input id="date" name="date" required="" type="date" />
+
+  <br /><label for="date2">Check out date:</label> <input id="date2" name="date2" required="" type="date"/>
+  <br /><input type="submit" value="Submit" /></form>
+  <div id="results"></div>
+</main>
